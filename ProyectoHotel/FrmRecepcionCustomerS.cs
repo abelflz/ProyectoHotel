@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace ProyectoHotel
 {
-    public partial class Form1 : Form
+    public partial class FrmRecepcionCustomerS : Form
     {
-        public Form1()
+        public string CS { get; set; }
+        public string NOMBRE { get; set; }
+        public FrmRecepcionCustomerS()
         {
             InitializeComponent();
+        }
+
+        private void RecepcionCustomerS_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
