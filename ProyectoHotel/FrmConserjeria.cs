@@ -12,8 +12,8 @@ namespace ProyectoHotel
 {
     public partial class FrmConserjeria : Form
     {
+        public string nombre { get; set; }
         public string CS { get; set; }
-        public string Nombre { get; set; }
         public FrmConserjeria()
         {
             InitializeComponent();
@@ -29,7 +29,7 @@ namespace ProyectoHotel
 
         private void FrmConserjeria_Load(object sender, EventArgs e)
         {
-            NombreCompleto.Text = Nombre;
+            NombreCompleto.Text = nombre;
         }
     }
 }
