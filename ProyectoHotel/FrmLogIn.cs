@@ -86,12 +86,21 @@ namespace ProyectoHotel
                             this.Hide();
                             contabilidad.Show();
                             break;
-                        case "Conserje":
-                            FrmConserjeria conserje = new FrmConserjeria();
+                        case "Recepcionista":
+                            FrmRecepcion conserje = new FrmRecepcion();
                             conserje.nombre = nombre;
                             conserje.CS = CS;
+                            conserje.rol = "Recepcionista";
                             this.Hide();
                             conserje.Show();
+                            break;
+                        case "Gerente de Recepción":
+                            FrmRecepcion alo = new FrmRecepcion();
+                            alo.nombre = nombre;
+                            alo.CS = CS;
+                            alo.rol = "Gerente de Recepción";
+                            this.Hide();
+                            alo.Show();
                             break;
                     }
                 }

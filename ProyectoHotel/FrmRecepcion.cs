@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace ProyectoHotel
 {
-    public partial class FrmConserjeria : Form
+    public partial class FrmRecepcion : Form
     {
         public string nombre { get; set; }
         public string CS { get; set; }
-        public FrmConserjeria()
+        public string rol { get; set; }
+        public FrmRecepcion()
         {
             InitializeComponent();
         }
@@ -30,6 +31,9 @@ namespace ProyectoHotel
         private void FrmConserjeria_Load(object sender, EventArgs e)
         {
             NombreCompleto.Text = nombre;
+            if (rol.Equals("Gerente de Recepción")) {
+                button1.Visible = true;
+            }
         }
     }
 }

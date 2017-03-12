@@ -61,6 +61,7 @@
             this.dgvRol = new System.Windows.Forms.DataGridView();
             this.label14 = new System.Windows.Forms.Label();
             this.GoBack = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -385,17 +386,28 @@
             // 
             this.GoBack.Location = new System.Drawing.Point(654, 315);
             this.GoBack.Name = "GoBack";
-            this.GoBack.Size = new System.Drawing.Size(249, 74);
+            this.GoBack.Size = new System.Drawing.Size(121, 74);
             this.GoBack.TabIndex = 17;
             this.GoBack.Text = "Volver al menú principal";
             this.GoBack.UseVisualStyleBackColor = true;
             this.GoBack.Click += new System.EventHandler(this.GoBack_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(781, 315);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(124, 74);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Gestión de Privilegios";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // FrmCrearEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(924, 401);
+            this.ClientSize = new System.Drawing.Size(920, 412);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.GoBack);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
@@ -459,5 +471,6 @@
         private System.Windows.Forms.DataGridView dgvRol;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button GoBack;
+        private System.Windows.Forms.Button button1;
     }
 }

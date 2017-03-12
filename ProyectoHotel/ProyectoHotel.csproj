@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmConserjeria.cs">
+    <Compile Include="FrmRecepcion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmConserjeria.Designer.cs">
-      <DependentUpon>FrmConserjeria.cs</DependentUpon>
+    <Compile Include="FrmRecepcion.Designer.cs">
+      <DependentUpon>FrmRecepcion.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmContabilidad.cs">
       <SubType>Form</SubType>
@@ -70,6 +70,12 @@
     <Compile Include="FrmGerenteTI.Designer.cs">
       <DependentUpon>FrmGerenteTI.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmGestionPrivilegios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGestionPrivilegios.Designer.cs">
+      <DependentUpon>FrmGestionPrivilegios.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,8 +84,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmConserjeria.resx">
-      <DependentUpon>FrmConserjeria.cs</DependentUpon>
+    <EmbeddedResource Include="FrmRecepcion.resx">
+      <DependentUpon>FrmRecepcion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmContabilidad.resx">
       <DependentUpon>FrmContabilidad.cs</DependentUpon>
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmGerenteTI.resx">
       <DependentUpon>FrmGerenteTI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGestionPrivilegios.resx">
+      <DependentUpon>FrmGestionPrivilegios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogIn.resx">
       <DependentUpon>FrmLogIn.cs</DependentUpon>
